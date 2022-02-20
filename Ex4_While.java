@@ -25,10 +25,11 @@ while(total < 150) {
     if (idade >=0 && idade <=100 ) {
         total++;
     }
-    else {System.out.println("\n Você não digitou uma idade válida");}
-    System.out.println("\n Digite a idade: ");
-    idade = leia.nextInt();
-    
+    else {System.out.println("\n Você não digitou uma idade válida");
+         System.out.println("\n Digite a idade: ");
+         idade = leia.nextInt();
+    }
+   
 
 while(sexo == 0) {
     System.out.println("\n Informe o sexo:");
